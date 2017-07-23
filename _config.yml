@@ -1,7 +1,0 @@
-title: lsshub
-description: A place for lss fans.
-show_downloads: false
-google_analytics:
-theme: 
-Paginate:5
-paginate_path:”page:num”

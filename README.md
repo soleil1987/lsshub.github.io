@@ -1,102 +1,82 @@
-# The Cayman theme
+![](https://qiniu.viosey.com/img/Material-Phone-Render.png)
 
-[![Build Status](https://travis-ci.org/pages-themes/cayman.svg?branch=master)](https://travis-ci.org/pages-themes/cayman) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-cayman.svg)](https://badge.fury.io/rb/jekyll-theme-cayman)
+# Material 原质
 
-*Cayman is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/cayman), or even [use it today](#usage).*
+[Material Theme](https://material.viosey.com)
 
-![Thumbnail of cayman](thumbnail.png)
+>Nature, Source | 原之质，物之渊
 
-## Usage
+## Contents 目录
 
-To use the Cayman theme:
+- [General 概括](#general-概括)
+- [Demo 演示](#demo-演示)
+- [Quick start 快速开始](#quick-start-快速开始)
+- [Docs 文档](#docs-文档)
+- [Contributing 贡献](#contributing-贡献)
+- [License 许可证](#license-许可证)
+- [Support 支持](#support-支持)
+- [Render 渲染](#render-渲染)
+- [Changelog 开发日志](https://github.com/viosey/hexo-theme-material/releases)
 
-1. Add the following to your site's `_config.yml`:
+## General 概括
 
-    ```yml
-    theme: jekyll-theme-cayman
-    ```
+[![Version](https://img.shields.io/badge/version-1.4.0-green.svg?style=flat-square)]()
+[![Author](https://img.shields.io/badge/author-Viosey-blue.svg?style=flat-square)](https://viosey.com)
 
-2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
+[![Hexo](https://img.shields.io/badge/hexo-3.0+-green.svg?style=flat-square)](https://hexo.io)
+[![node.js](https://img.shields.io/badge/node.js-6.0%2B-green.svg?style=flat-square)](https://nodejs.org/)
 
-    ```ruby
-    gem "github-pages", group: :jekyll_plugins
-    ```
+[![Build Status](https://img.shields.io/travis/viosey/hexo-theme-material.svg?style=flat-square)](https://travis-ci.org/viosey/hexo-theme-material)
+[![npm](https://img.shields.io/npm/dt/hexo-material.svg?style=flat-square)](https://www.npmjs.com/package/hexo-material)
+
+## Demo 演示
+
+[Viosey's Blog](https://blog.viosey.com)
+
+## Quick start 快速开始
+
+[Install Material](https://material.viosey.com/en/start/#install-material)
+
+[安装 Material](https://material.viosey.com/start/#install-material)
 
 
+## Docs 文档
 
-## Customizing
+[Material Theme Docs](https://material.viosey.com/en/)
 
-### Configuration variables
+[Material 主题文档](https://material.viosey.com)
 
-Cayman will respect the following variables, if set in your site's `_config.yml`:
+>[Docs Markdown Files](https://github.com/viosey/material-theme-docs)
 
-```yml
-title: [The title of your site]
-description: [A short description of your site's purpose]
-```
 
-Additionally, you may choose to set the following optional variables:
+## Contributing 贡献
 
-```yml
-show_downloads: ["true" or "false" to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
-```
+All kinds of contributions (enhancements, new features, documentation & code improvements, issues & bugs reporting) are welcome.
 
-### Stylesheet
+Before you start your contributing, please read the [Contributing Rules Wiki](https://github.com/viosey/hexo-theme-material/wiki) first.
 
-If you'd like to add your own custom styles:
+欢迎各种形式的贡献，包括但不限于优化，添加功能，文档 & 代码的改进，问题和 bugs 的报告。期待您的 `Pull Request`。
 
-1. Create a file called `/assets/css/style.scss` in your site
-2. Add the following content to the top of the file, exactly as shown:
-    ```scss
-    ---
-    ---
+在参与贡献之前，请阅读[项目贡献 Wiki](https://github.com/viosey/hexo-theme-material/wiki)，了解如何为 Material 主题贡献。
 
-    @import "{{ site.theme }}";
-    ```
-3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
 
-### Layouts
+## License 许可证
 
-If you'd like to change the theme's HTML layout:
+[![license](https://img.shields.io/github/license/viosey/hexo-theme-material.svg?style=flat-square)](https://github.com/viosey/hexo-theme-material/blob/master/LICENSE)
 
-1. [Copy the original template](https://github.com/pages-themes/cayman/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
-2. Create a file called `/_layouts/default.html` in your site
-3. Paste the default layout content copied in the first step
-4. Customize the layout as you'd like
+Open sourced under the GPL v3.0 license.
 
-### Sass variables
+根据 GPL V3.0 许可证开源。
 
-If you'd like to change the theme's [Sass variables](https://github.com/pages-themes/cayman/blob/master/_sass/variables.scss), set new values before the `@import` line in your stylesheet:
+## Support 支持
+![BrowserStack Status](https://www.browserstack.com/automate/badge.svg?badge_key=V1VkWmJMRjJqcHBjN1BIVFRlNzExM05XUk5hemcydEpZTHRBdGd5V244ST0tLTlvNklDT1NuVXFDaTh0RDBnQ3RCdXc9PQ==--c986c45d7c10a3264f46b414944d6393ba74ea22%)
 
-```scss
-$section-headings-color: #0086b3;
+Proudly using BrowserStack.
 
-@import "{{ site.theme }}";
-```
+[![](https://qiniu.viosey.com/img/browserstack_logo.png)](https://www.browserstack.com/)
 
-## Roadmap
+>**BrowserStack** is a cloud-based cross-browser testing tool that enables developers to test their websites across various browsers on different operating systems and mobile devices, without requiring users to install virtual machines, devices or emulators.
 
-See the [open issues](https://github.com/pages-themes/cayman/issues) for a list of proposed features (and known issues).
+## Render 渲染
 
-## Project philosophy
-
-The Cayman theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
-
-## Contributing
-
-Interested in contributing to Cayman? We'd love your help. Cayman is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](CONTRIBUTING.md) for instructions on how to contribute.
-
-### Previewing the theme locally
-
-If you'd like to preview the theme locally (for example, in the process of proposing a change):
-
-1. Clone down the theme's repository (`git clone https://github.com/pages-themes/cayman`)
-2. `cd` into the theme's directory
-3. Run `script/bootstrap` to install the necessary dependencies
-4. Run `bundle exec jekyll serve` to start the preview server
-5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
-
-### Running tests
-
-The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` one before the test script will work.
+![](https://qiniu.viosey.com/img/Materia-overview-tiny.png)
